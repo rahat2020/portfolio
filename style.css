@@ -129,6 +129,7 @@ h1{
     background-color: #d6c5c575;
     text-align:center;
     margin-left: 58px;
+    border-radius: 3px;
 }
 button{
     background-color:  #736a6a;
@@ -144,6 +145,7 @@ button{
     background-color: #d6c5c575;
     text-align:center;
     margin-left: 58px;
+    border-radius: 3px;
 }
 /* end middle part */
 
@@ -237,4 +239,55 @@ h3{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+/* end second footer part */
+
+
+/* final footer part */
+
+.fotter-parat {
+    
+    margin-top: -86px;
+}
+.fotter-one{
+    color: #696871;
+    margin-left: 26px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+}
+.fotter{
+    
+    margin-left: 26px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+}
+h6{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    
+   
+}
+#last{
+    border-left: 3px solid ;
+    border-color: green;
+    border-right: 3px solid red;
+
+}
+
+.last {
+    width: 377px;
+    padding: 13px;
+    box-shadow: 9px 8px 40px tomato;
+   
+}
+.copyrights{
+    text-align:center;
 }
