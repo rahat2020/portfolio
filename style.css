@@ -4,6 +4,7 @@ body{
 
 }
 
+
 /*top-header-part*/
 
 .top-banner{
@@ -54,6 +55,7 @@ h1{
 /*End header-part*/
 
 
+
 /*middle-part start*/
 
 
@@ -82,7 +84,9 @@ h1{
 /* end middle part */
 
 
+
 /* start middle footer */
+
 .para{
 
     color: #F46060;
@@ -98,14 +102,139 @@ h1{
     font-size: 34px;
     text-transform: uppercase;
 }
-.all{
-    width: 100%;
-    float: left;
-    height: 400px;
+.box-1, .box-2, .box-3 {
+    width: 356px;
+    margin: auto;
+    height: 226px;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 12px grey;
+    background-size: cover;
 }
-.one{
-    float: left;
+.box-contaier{
+    display: flex;
+    justify-content: space-between;
 }
-.two{
+.box-1{
+    background-image: url(images/image\ 4.png);
+}
+
+.box-2{
+    background-image: url(images/image\ 5.png);
+}
+.box-3{
+    background-image: url(images/image\ 8.png);
+}
+#one{
+    color:#7d2626c4;
+    background-color: #d6c5c575;
+    text-align:center;
+    margin-left: 58px;
+}
+button{
+    background-color:  #736a6a;
+    text-align: center;
+    border:none;
+    color: #fbf5ff;
+    margin-left: 129px;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+#two{
+    color:#7d2626c4;
+    background-color: #d6c5c575;
+    text-align:center;
+    margin-left: 58px;
+}
+/* end middle part */
+
+
+/* start first footer part*/
+
+.img{
+    background-image: url(images/fotter.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -107px;
+    position: relative;
+}
+
+.footer-part img {
+    width: 868px;
+    height: 300px;
+    margin-left: 18%;
+}
+/* text over imnage */
+.container {
+    position: absolute;
+    top: 50px;
+    left: 275px;
+    color: white;
+    font-size: 52px;
+    padding-left: 27px;
+    padding-right: 20px;
+}
+
+#btn {
+    position: absolute;
+    font-size: 23px;
+    background-color: tomato;
+    bottom: 73px;
+    right: -362px;
+    color: white;
+    padding: 8px 28px 12px 23px;
+    text-decoration: none;
+}
+/* end first footer part */
+
+
+/* start second footer part */
+.third-part{
+    margin:auto;
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+  
+}
+#third{
+    font-weight: bold;
+    text-align: center;
+    border-style: dotted dashed solid double;
+    border-radius: 20px;
+}
+#third{
+    border-bottom: 3px solid red;
+}
+#third{
+    border-bottom: 3px solid green;
+}
+h3{
+    text-align: center;
+    border-bottom:1px  dotted #ddd;
+}
+.third{
+    color: tomato;
+}
+.fix-left {
+    margin-top: -78px;
+    margin-left: 37px;
     float: left;
+    border-bottom: 1px outset #ddd;
+}
+.center{
+    text-align: center;
+}
+.experince-area{
+    margin-top: 100px;
+}
+.experince-area{
+    
+    background-image: url(images/shape1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.another-part{
+    background-image: url(images/shape2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
